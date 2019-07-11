@@ -12,5 +12,5 @@ To put this method to test, we will use the MNSIT dataset to do the following:
 
 We will do this using two approaches:
 
- - Using a dense layered model
+ - Using a fully connected dense layered model
  - Using a CNN model
