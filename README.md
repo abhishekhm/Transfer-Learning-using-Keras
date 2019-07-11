@@ -4,13 +4,13 @@ It is a widely used approach in deep learning where pre-trained models are used 
 
 To put this method to test, we will use the MNSIT dataset to do the following:
 
-    Create a model to and train it to learn digits from 0-4 in the MNIST dataset.
-    Test its performance on digits 0-9.
-    Freeze the layers from in the model to retain the trained weights that the model has learnt from training on 0-4 digits.
-    Add new layers to this model and train on digits 5-9 and test its performace.
-    Test its performance on digits 0-9.
+ 1. Create a model to and train it to learn digits from 0-4 in the MNIST dataset.
+ 2. Test its performance on digits 0-9.
+ 3. Freeze the layers from in the model to retain the trained weights that the model has learnt from training on 0-4 digits.
+ 4. Add new layers to this model and train on digits 5-9 and test its performace.
+ 5. Test its performance on digits 0-9.
 
 We will do this using two approaches:
 
-    Using a dense layered model
-    Using a CNN model
+ - Using a dense layered model
+ - Using a CNN model
